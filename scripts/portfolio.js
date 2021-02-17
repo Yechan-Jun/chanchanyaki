@@ -1,13 +1,12 @@
 const portfolioItems = document.querySelectorAll('.portfolio-item-wrapper');
 
-portfolioItems.forEach(portfolioItems => {
+portfolioItems.forEach(portfolioItem => {
     portfolioItem.addEventListener('mouseover', () => {
-        console.log(portfolioItem.childNodes[1].classList)
+        console.log(portfolioItem.childNodes[1].classList);
         portfolioItem.childNodes[1].classList.add('img-darken');
 });
 
 portfolioItem.addEventListener('mouseout', () => {
-    console.log(portfolioItem.childNodes[1].classList)
-    portfolioItem.childNodes[1].classList.remove('img-blur');
+    portfolioItem.childNodes[1].classList.remove('img-darken');
 });
 });
