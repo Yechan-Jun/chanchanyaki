@@ -9,7 +9,7 @@ body {
   font-family: "Noto Sans KR";
 }
 
-a {
+.container a {
   text-decoration: none;
   color: var(--text-color);
 }
@@ -40,7 +40,7 @@ a {
 }
 
 .navbar_menu li:hover {
-  background-color: var(--background-color);
+  background-color: var(--accent-color);
   border-radius: 4px;
 }
 
