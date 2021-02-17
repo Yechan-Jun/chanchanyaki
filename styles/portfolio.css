@@ -8,7 +8,7 @@
 }
 
 .portfolio-img-background {
-  height: 350px;
+  height: 400px;
   width: 100%;
   background-size: cover;
   background-position: center;
@@ -24,8 +24,7 @@
   align-items: center;
   height: 100%;
   text-align: center;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-inline-start: 45%;
 }
 
 .img-text-wrapper .subtitle {
@@ -40,12 +39,12 @@
 
 .img-text-wrapper:hover .subtitle {
   color: lightseagreen;
-  font-weight: 600;
+  font-weight: 1000;
 }
 
 .logo-wrapper img {
-  width: 50%;
-  margin-bottom: 20px;
+  width: 5%;
+  margin-inline: 100%;
 }
 
 @media screen and (max-width: 768px) {
