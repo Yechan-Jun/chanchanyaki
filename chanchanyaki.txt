@@ -1,0 +1,21 @@
+1. Build the project
+    - creating the folder
+    - adding files
+    - connecting files
+
+2. Navbar
+    - header
+    - logo, home, diary, notice, contact facebook instagram
+
+3. Portfolio item grid
+    - images
+    - titles
+    - descriptions
+    - animations
+    - javascript
+
+4. About page
+    - image
+    -split column layout
+    
+
